@@ -153,7 +153,7 @@ Examines the factors and transaction patterns associated with fraudulent activit
 
 5. **Monitor monthly trends:** Increase fraud monitoring during periods with higher observed fraud rates and financial exposure, particularly December.
 
-6. **Use regional risk patterns:** Incorporate regional transaction patterns into fraud monitoring to identify areas and transaction types that may require closer attention.
+6. **Use regional risk patterns:** Prioritise closer monitoring of transfer transactions in the South West and North Central zones, where fraud rates reached 3.0%, and review regional differences across other transaction types to identify areas requiring additional attention.
 
 ## Repository Structure
 
