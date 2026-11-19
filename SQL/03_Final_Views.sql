@@ -44,12 +44,14 @@ GROUP BY Transaction_Type;
 -- =====================================================
 -- 3. FRAUD RISK FACTORS
 -- =====================================================
--- Consolidates individual risk factors and combined
+-- Consolidates individual fraud risk factors and combined
 -- risk segments into one Tableau-ready analytical view.
 --
--- Risk segments:
--- Device, Channel, Customer Type, Account Age,
--- Device and Channel, Customer and Transaction Type,
+-- Individual risk factors:
+-- Device, Channel, Customer Type, Account Age.
+--
+-- Combined risk segments:
+-- Device and Channel, Customer Type and Transaction Type,
 -- Region and Transaction Type.
 
 CREATE VIEW vw_fraud_risk_factors AS
